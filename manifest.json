@@ -1,0 +1,30 @@
+{
+  "id": "carbon-credit-marketplace-verifier",
+  "title": "Carbon Credit Marketplace Verifier App",
+  "industry": "Financial Services",
+  "industryId": "financial-services",
+  "specialization": "Carbon Credit Marketplace Verifier",
+  "sourcePlatformGroup": "banking-lending-platform",
+  "sources": [
+    "AICarbonCreditMarketplaceVerifier",
+    "AICreditRiskAssessmentAgent",
+    "AIDebtCollectionOptimizer",
+    "AIMortgageUnderwritingAssistant"
+  ],
+  "featureCount": 235,
+  "candidateFeatureCount": 336,
+  "eliminatedSimilarFeatures": 101,
+  "evidenceCount": 424,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 32,
+    "seededRows": 524
+  },
+  "visibleFeatureCount": 38,
+  "featureVisibilityMode": "seeded-or-ai"
+}
