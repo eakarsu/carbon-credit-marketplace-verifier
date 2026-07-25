@@ -11,12 +11,12 @@
     "AIDebtCollectionOptimizer",
     "AIMortgageUnderwritingAssistant"
   ],
-  "featureCount": 236,
-  "candidateFeatureCount": 344,
-  "eliminatedSimilarFeatures": 108,
-  "evidenceCount": 400,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 249,
+  "candidateFeatureCount": 351,
+  "eliminatedSimilarFeatures": 102,
+  "evidenceCount": 425,
+  "aiPageCount": 16,
+  "sourceAIPageCount": 16,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 32,
     "seededRows": 524
   },
-  "visibleFeatureCount": 39,
+  "visibleFeatureCount": 52,
   "featureVisibilityMode": "seeded-or-ai"
 }

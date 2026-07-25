@@ -333,6 +333,32 @@
     ]
   },
   {
+    "name": "AI Assistant",
+    "canonicalKey": "ai assistant",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-chat"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/AIChat.jsx:1",
+        "route": "/ai-chat",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "AI Calculate",
     "canonicalKey": "ai calculate",
     "aliases": [],
@@ -669,9 +695,11 @@
     "canonicalKey": "analyze pattern payment",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new?tool=analyze-payment-pattern",
       "/analyze-payment-pattern"
     ],
     "sourceProjects": [
@@ -681,6 +709,13 @@
       "financial-services/carbon-credit-marketplace-verifier"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/pages/AINewFeatures.jsx:73",
+        "route": "/ai-new?tool=analyze-payment-pattern",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
@@ -1974,6 +2009,32 @@
     ]
   },
   {
+    "name": "Collateral Management",
+    "canonicalKey": "collateral",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/Collateral"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/Collateral.jsx:1",
+        "route": "/Collateral",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "Collateral Pricing",
     "canonicalKey": "collateral pricing",
     "aliases": [],
@@ -2713,6 +2774,32 @@
     ]
   },
   {
+    "name": "Credit Applicants",
+    "canonicalKey": "applicant credit",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/applicants"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/Applicants.jsx:1",
+        "route": "/applicants",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "Credit Bureau Integrations",
     "canonicalKey": "bureau credit integration",
     "aliases": [],
@@ -2834,6 +2921,32 @@
         "sourceProject": "AIMortgageUnderwritingAssistant",
         "path": "server/routes/ai.js:49",
         "route": "/credit-risk",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Credit Score",
+    "canonicalKey": "credit score",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/credit-score"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "backend/src/routes/customViews.js:28",
+        "route": "/credit-score",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
@@ -3177,6 +3290,41 @@
     ]
   },
   {
+    "name": "Detect Fraud",
+    "canonicalKey": "detect fraud",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api"
+    ],
+    "routes": [
+      "/ai-new?tool=detect-fraud",
+      "/detect-fraud"
+    ],
+    "sourceProjects": [
+      "AIDebtCollectionOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/pages/AINewFeatures.jsx:60",
+        "route": "/ai-new?tool=detect-fraud",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "server/routes/aiNew.js:365",
+        "route": "/detect-fraud",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "Disclosure Packages",
     "canonicalKey": "disclosure package",
     "aliases": [],
@@ -3426,6 +3574,32 @@
         "kind": "page",
         "sourceProject": "AICreditRiskAssessmentAgent",
         "path": "frontend/src/pages/EarlyWarning.jsx",
+        "route": "/EarlyWarning",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Early Warning System",
+    "canonicalKey": "early warning",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/EarlyWarning"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/EarlyWarning.jsx:1",
         "route": "/EarlyWarning",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -3715,6 +3889,67 @@
         "sourceProject": "AICreditRiskAssessmentAgent",
         "path": "frontend/src/pages/Dashboard.jsx:9",
         "route": "/fraud",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Fraud Detection",
+    "canonicalKey": "detection fraud",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/FraudDetection",
+      "/cf/fraud-detection",
+      "/fraud",
+      "/fraud-detection"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent",
+      "AIDebtCollectionOptimizer",
+      "AIMortgageUnderwritingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/FraudDetection.jsx:1",
+        "route": "/fraud",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "backend/src/routes/ai.js:222",
+        "route": "/fraud-detection",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/FraudDetection.jsx",
+        "route": "/FraudDetection",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/App.jsx:99",
+        "route": "/cf/fraud-detection",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMortgageUnderwritingAssistant",
+        "path": "server/routes/ai.js:135",
+        "route": "/fraud-detection",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
@@ -5731,10 +5966,45 @@
     "canonicalKey": "offer optimize settlement",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new?tool=optimize-settlement-offer",
       "/optimize-settlement-offer"
+    ],
+    "sourceProjects": [
+      "AIDebtCollectionOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/pages/AINewFeatures.jsx:46",
+        "route": "/ai-new?tool=optimize-settlement-offer",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "server/routes/aiNew.js:336",
+        "route": "/optimize-settlement-offer",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Payment Analysis",
+    "canonicalKey": "analysis payment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/payment-analysis"
     ],
     "sourceProjects": [
       "AIDebtCollectionOptimizer"
@@ -5746,8 +6016,8 @@
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
-        "path": "server/routes/aiNew.js:336",
-        "route": "/optimize-settlement-offer",
+        "path": "server/routes/reports.js:134",
+        "route": "/payment-analysis",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
@@ -5938,6 +6208,32 @@
     ]
   },
   {
+    "name": "Portfolio Management",
+    "canonicalKey": "portfolio",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/portfolio"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/Portfolio.jsx:1",
+        "route": "/portfolio",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "Portfolio Stress Test",
     "canonicalKey": "portfolio stress test",
     "aliases": [],
@@ -6046,9 +6342,11 @@
     "canonicalKey": "likelihood payment predict",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new?tool=predict-payment-likelihood",
       "/predict-payment-likelihood"
     ],
     "sourceProjects": [
@@ -6058,6 +6356,13 @@
       "financial-services/carbon-credit-marketplace-verifier"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/pages/AINewFeatures.jsx:34",
+        "route": "/ai-new?tool=predict-payment-likelihood",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
@@ -6265,9 +6570,11 @@
     "canonicalKey": "model pricing",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/Pricing",
       "/pricing-model"
     ],
     "sourceProjects": [
@@ -6277,6 +6584,13 @@
       "financial-services/carbon-credit-marketplace-verifier"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/Pricing.jsx:1",
+        "route": "/Pricing",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
       {
         "kind": "api",
         "sourceProject": "AICreditRiskAssessmentAgent",
@@ -6621,6 +6935,32 @@
     ]
   },
   {
+    "name": "Recovery Predictions",
+    "canonicalKey": "prediction recovery",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/predictions"
+    ],
+    "sourceProjects": [
+      "AIDebtCollectionOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/config/features.js:394",
+        "route": "/ai/predictions",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "Regulatory Alert Scan",
     "canonicalKey": "alert regulatory scan",
     "aliases": [],
@@ -6642,6 +6982,32 @@
         "sourceProject": "AIDebtCollectionOptimizer",
         "path": "server/routes/aiFeatures.js:62",
         "route": "/regulatory-alert-scan",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Regulatory Compliance",
+    "canonicalKey": "compliance regulatory",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/regulatory"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/Regulatory.jsx:1",
+        "route": "/regulatory",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
@@ -6708,6 +7074,42 @@
         "sourceProject": "AIMortgageUnderwritingAssistant",
         "path": "client/src/pages/Dashboard.jsx:17",
         "route": "/risk",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Risk Assessments",
+    "canonicalKey": "assessment risk",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "page"
+    ],
+    "routes": [
+      "/RiskAssessments",
+      "/assessments"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent",
+      "AIMortgageUnderwritingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/pages/Assessments.jsx:1",
+        "route": "/assessments",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMortgageUnderwritingAssistant",
+        "path": "client/src/pages/RiskAssessments.jsx",
+        "route": "/RiskAssessments",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
@@ -6847,9 +7249,11 @@
     "canonicalKey": "contact optimal schedule",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new?tool=schedule-optimal-contact",
       "/schedule-optimal-contact"
     ],
     "sourceProjects": [
@@ -6859,6 +7263,13 @@
       "financial-services/carbon-credit-marketplace-verifier"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/pages/AINewFeatures.jsx:85",
+        "route": "/ai-new?tool=schedule-optimal-contact",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
@@ -6873,9 +7284,11 @@
     "canonicalKey": "debtor score",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-new?tool=score-debtor",
       "/score-debtor"
     ],
     "sourceProjects": [
@@ -6885,6 +7298,13 @@
       "financial-services/carbon-credit-marketplace-verifier"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/pages/AINewFeatures.jsx:18",
+        "route": "/ai-new?tool=score-debtor",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
@@ -6942,6 +7362,32 @@
         "sourceProject": "AICarbonCreditMarketplaceVerifier",
         "path": "server/routes/integrations.js:131",
         "route": "/registry/serial-check",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Settlement Calculator",
+    "canonicalKey": "calculator settlement",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SettlementCalculator"
+    ],
+    "sourceProjects": [
+      "AIDebtCollectionOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "client/src/pages/SettlementCalculator.jsx",
+        "route": "/SettlementCalculator",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
