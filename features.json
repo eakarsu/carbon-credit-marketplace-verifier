@@ -1,5 +1,220 @@
 [
   {
+    "name": "Additionality Validator",
+    "canonicalKey": "additionality validator",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/additionality-validator"
+    ],
+    "sourceProjects": [
+      "AICarbonCreditMarketplaceVerifier"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICarbonCreditMarketplaceVerifier",
+        "path": "server/routes/aiNew.js:36",
+        "route": "/additionality-validator",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Advance Stage",
+    "canonicalKey": "advance stage",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/advance-stage"
+    ],
+    "sourceProjects": [
+      "AIMortgageUnderwritingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMortgageUnderwritingAssistant",
+        "path": "server/routes/applications.js:78",
+        "route": "/:id/advance-stage",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Adverse Action",
+    "canonicalKey": "action adverse",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/adverse-action"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "backend/src/routes/aiAdvanced.js:355",
+        "route": "/adverse-action",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Adverse Action Mapping",
+    "canonicalKey": "action adverse mapping",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/features/adverse-action-mapping"
+    ],
+    "sourceProjects": [
+      "AICreditRiskAssessmentAgent"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICreditRiskAssessmentAgent",
+        "path": "frontend/src/components/Layout.jsx:36",
+        "route": "/features/adverse-action-mapping",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Agent Performance",
+    "canonicalKey": "agent performance",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/agent-performance"
+    ],
+    "sourceProjects": [
+      "AIDebtCollectionOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "server/routes/reports.js:38",
+        "route": "/agent-performance",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Agent Scorecard",
+    "canonicalKey": "agent scorecard",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/agent-scorecard"
+    ],
+    "sourceProjects": [
+      "AIDebtCollectionOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "server/routes/aiNew.js:9",
+        "route": "/agent-scorecard",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Agentic",
+    "canonicalKey": "agentic",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap/agentic"
+    ],
+    "sourceProjects": [
+      "AIMortgageUnderwritingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMortgageUnderwritingAssistant",
+        "path": "client/src/App.jsx:142",
+        "route": "/gap/agentic",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMortgageUnderwritingAssistant",
+        "path": "client/src/components/Layout.jsx:38",
+        "route": "/gap/agentic",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Agentic Verifier Reviewing Project Documents And F Page",
+    "canonicalKey": "agentic and document f project reviewing verifier",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AgenticVerifierReviewingProjectDocumentsAndFPage"
+    ],
+    "sourceProjects": [
+      "AICarbonCreditMarketplaceVerifier"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICarbonCreditMarketplaceVerifier",
+        "path": "client/src/pages/AgenticVerifierReviewingProjectDocumentsAndFPage.js",
+        "route": "/AgenticVerifierReviewingProjectDocumentsAndFPage",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "AI Analyze",
     "canonicalKey": "ai analyze",
     "aliases": [
@@ -398,221 +613,6 @@
     ]
   },
   {
-    "name": "Additionality Validator",
-    "canonicalKey": "additionality validator",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/additionality-validator"
-    ],
-    "sourceProjects": [
-      "AICarbonCreditMarketplaceVerifier"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AICarbonCreditMarketplaceVerifier",
-        "path": "server/routes/aiNew.js:36",
-        "route": "/additionality-validator",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Advance Stage",
-    "canonicalKey": "advance stage",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/advance-stage"
-    ],
-    "sourceProjects": [
-      "AIMortgageUnderwritingAssistant"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/applications.js:78",
-        "route": "/:id/advance-stage",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Adverse Action",
-    "canonicalKey": "action adverse",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/adverse-action"
-    ],
-    "sourceProjects": [
-      "AICreditRiskAssessmentAgent"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AICreditRiskAssessmentAgent",
-        "path": "backend/src/routes/aiAdvanced.js:355",
-        "route": "/adverse-action",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Adverse Action Mapping",
-    "canonicalKey": "action adverse mapping",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/features/adverse-action-mapping"
-    ],
-    "sourceProjects": [
-      "AICreditRiskAssessmentAgent"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICreditRiskAssessmentAgent",
-        "path": "frontend/src/components/Layout.jsx:36",
-        "route": "/features/adverse-action-mapping",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Agent Performance",
-    "canonicalKey": "agent performance",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/agent-performance"
-    ],
-    "sourceProjects": [
-      "AIDebtCollectionOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDebtCollectionOptimizer",
-        "path": "server/routes/reports.js:38",
-        "route": "/agent-performance",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Agent Scorecard",
-    "canonicalKey": "agent scorecard",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/agent-scorecard"
-    ],
-    "sourceProjects": [
-      "AIDebtCollectionOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDebtCollectionOptimizer",
-        "path": "server/routes/aiNew.js:9",
-        "route": "/agent-scorecard",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Agentic",
-    "canonicalKey": "agentic",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/gap/agentic"
-    ],
-    "sourceProjects": [
-      "AIMortgageUnderwritingAssistant"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "client/src/App.jsx:142",
-        "route": "/gap/agentic",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "client/src/components/Layout.jsx:38",
-        "route": "/gap/agentic",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Agentic Verifier Reviewing Project Documents And F Page",
-    "canonicalKey": "agentic and documents f project reviewing verifier",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AgenticVerifierReviewingProjectDocumentsAndFPage"
-    ],
-    "sourceProjects": [
-      "AICarbonCreditMarketplaceVerifier"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/carbon-credit-marketplace-verifier"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICarbonCreditMarketplaceVerifier",
-        "path": "client/src/pages/AgenticVerifierReviewingProjectDocumentsAndFPage.js",
-        "route": "/AgenticVerifierReviewingProjectDocumentsAndFPage",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
     "name": "Ainew Js Scaffold But0 Mounted Chat Style AI Endp Page",
     "canonicalKey": "ai ainew but0 chat endp js mounted scaffold style",
     "aliases": [],
@@ -800,7 +800,7 @@
   },
   {
     "name": "Applicants Lacks Predict Approval Likelihood",
-    "canonicalKey": "applicants approval lacks likelihood predict",
+    "canonicalKey": "applicant approval lack likelihood predict",
     "aliases": [],
     "kinds": [
       "page"
@@ -956,7 +956,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:432",
+        "path": "server/routes/ai.js:434",
         "route": "/appraisal-review",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -1158,7 +1158,7 @@
   },
   {
     "name": "Assessments Lacks AI Driven Underwriting Copilot",
-    "canonicalKey": "ai assessments copilot driven lacks underwriting",
+    "canonicalKey": "ai assessment copilot driven lack underwriting",
     "aliases": [],
     "kinds": [
       "page"
@@ -1204,7 +1204,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:828",
+        "path": "server/routes/ai.js:830",
         "route": "/asset-verification",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       },
@@ -1244,7 +1244,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:488",
+        "path": "server/routes/ai.js:490",
         "route": "/audit-anomaly",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -1381,7 +1381,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:405",
+        "path": "server/routes/ai.js:407",
         "route": "/borrower-profile",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -1827,7 +1827,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:785",
+        "path": "server/routes/ai.js:787",
         "route": "/closing-readiness",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       },
@@ -2071,7 +2071,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:657",
+        "path": "server/routes/ai.js:659",
         "route": "/comparable-sales",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -2128,10 +2128,7 @@
       "AICarbonCreditMarketplaceVerifier",
       "AICreditRiskAssessmentAgent",
       "AICryptocurrencyTaxCalculator",
-      "AIDAOGovernanceAssistant",
       "AIDebtCollectionOptimizer",
-      "AIExpenseReportAuditor",
-      "AIFamilyOfficeManager",
       "AIGroundedClaims",
       "AIInvoiceProcessing",
       "AIMortgageUnderwritingAssistant",
@@ -2139,24 +2136,15 @@
       "AIVCDealFlowCopilot"
     ],
     "consolidatedFromApps": [
-      "financial-services/aave-protocol-v2-merged",
       "financial-services/aml-transaction-monitoring",
       "financial-services/audit-workpaper-automation",
       "financial-services/carbon-credit-marketplace-verifier",
       "financial-services/freqtrade-merged",
       "financial-services/grounded-claims",
       "financial-services/invoice-processing",
-      "financial-services/smart-contract-auditor",
-      "financial-services/trading-merged"
+      "financial-services/smart-contract-auditor"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDAOGovernanceAssistant",
-        "path": "backend/openrouter.js:56",
-        "route": "/api/v1/chat/completions",
-        "originApp": "financial-services/aave-protocol-v2-merged"
-      },
       {
         "kind": "api",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -2191,20 +2179,6 @@
         "path": "server/config/openrouter.js:40",
         "route": "/api/v1/chat/completions",
         "originApp": "financial-services/audit-workpaper-automation"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIExpenseReportAuditor",
-        "path": "server/services/openrouter.js:21",
-        "route": "/api/v1/chat/completions",
-        "originApp": "financial-services/invoice-processing"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIExpenseReportAuditor",
-        "path": "server/services/openrouter.js:86",
-        "route": "/api/v1/chat/completions",
-        "originApp": "financial-services/invoice-processing"
       },
       {
         "kind": "api",
@@ -2264,15 +2238,8 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIFamilyOfficeManager",
-        "path": "backend/services/ai.js:65",
-        "route": "/api/v1/chat/completions",
-        "originApp": "financial-services/trading-merged"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIGroundedClaims",
-        "path": "backend/services/ai.js:41",
+        "path": "backend/services/ai.js:24",
         "route": "/api/v1/chat/completions",
         "originApp": "financial-services/grounded-claims"
       },
@@ -2624,7 +2591,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:455",
+        "path": "server/routes/ai.js:457",
         "route": "/condition-generator",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -2698,7 +2665,7 @@
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
-        "path": "server/routes/contactStrategy.js:58",
+        "path": "server/routes/contactStrategy.js:59",
         "route": "/contact-strategy",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -2865,7 +2832,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:47",
+        "path": "server/routes/ai.js:49",
         "route": "/credit-risk",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -2873,7 +2840,7 @@
   },
   {
     "name": "Credits Format Json Csv",
-    "canonicalKey": "credits csv format json",
+    "canonicalKey": "credit csv format json",
     "aliases": [],
     "kinds": [
       "api"
@@ -2899,7 +2866,7 @@
   },
   {
     "name": "Critical Only 1 AI Endpoint For 30 Routes Missing Score Debt",
-    "canonicalKey": "1 30 ai critical debt endpoint for missing only routes score",
+    "canonicalKey": "1 30 ai critical debt endpoint for missing only route score",
     "aliases": [],
     "kinds": [
       "page"
@@ -3203,7 +3170,7 @@
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
-        "path": "server/routes/auth.js:35",
+        "path": "server/routes/auth.js:54",
         "route": "/defaults",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -3333,7 +3300,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:193",
+        "path": "server/routes/ai.js:195",
         "route": "/dti-analysis",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -3512,7 +3479,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:866",
+        "path": "server/routes/ai.js:868",
         "route": "/employment-verification",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       },
@@ -3586,7 +3553,7 @@
   },
   {
     "name": "Export Lacks Generate Regulatory Narrative",
-    "canonicalKey": "export generate lacks narrative regulatory",
+    "canonicalKey": "export generate lack narrative regulatory",
     "aliases": [],
     "kinds": [
       "page"
@@ -3656,7 +3623,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:384",
+        "path": "server/routes/ai.js:386",
         "route": "/fee-estimate",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -3780,7 +3747,7 @@
   },
   {
     "name": "Gap Applicants Lacks Predict Approval Likelihood",
-    "canonicalKey": "applicants approval gap lacks likelihood predict",
+    "canonicalKey": "applicant approval gap lack likelihood predict",
     "aliases": [],
     "kinds": [
       "page"
@@ -3832,7 +3799,7 @@
   },
   {
     "name": "Gap Assessments Lacks AI Driven Underwriting Copilot",
-    "canonicalKey": "ai assessments copilot driven gap lacks underwriting",
+    "canonicalKey": "ai assessment copilot driven gap lack underwriting",
     "aliases": [],
     "kinds": [
       "page"
@@ -3962,7 +3929,7 @@
   },
   {
     "name": "Gap Critical Only1 AI Endpoint For30 Routes Missing Score Debt",
-    "canonicalKey": "ai critical debt endpoint for30 gap missing only1 routes score",
+    "canonicalKey": "ai critical debt endpoint for30 gap missing only1 route score",
     "aliases": [],
     "kinds": [
       "page"
@@ -4040,7 +4007,7 @@
   },
   {
     "name": "Gap Export Lacks Generate Regulatory Narrative",
-    "canonicalKey": "export gap generate lacks narrative regulatory",
+    "canonicalKey": "export gap generate lack narrative regulatory",
     "aliases": [],
     "kinds": [
       "page"
@@ -4092,7 +4059,7 @@
   },
   {
     "name": "Gap Limited Third Party Integrations No Salesforce Servicenow Co",
-    "canonicalKey": "co gap integrations limited no party salesforce servicenow third",
+    "canonicalKey": "co gap integration limited no party salesforce servicenow third",
     "aliases": [],
     "kinds": [
       "page"
@@ -4144,7 +4111,7 @@
   },
   {
     "name": "Gap No Credit Bureau Integrations Equifax Experian Transunion",
-    "canonicalKey": "bureau credit equifax experian gap integrations no transunion",
+    "canonicalKey": "bureau credit equifax experian gap integration no transunion",
     "aliases": [],
     "kinds": [
       "page"
@@ -4576,15 +4543,12 @@
   {
     "name": "Income",
     "canonicalKey": "income",
-    "aliases": [
-      "Income Records"
-    ],
+    "aliases": [],
     "kinds": [
       "api",
       "page"
     ],
     "routes": [
-      "/IncomeRecords",
       "/income"
     ],
     "sourceProjects": [
@@ -4639,7 +4603,26 @@
         "path": "client/src/pages/Dashboard.jsx:12",
         "route": "/income",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Income Records",
+    "canonicalKey": "income record",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/IncomeRecords"
+    ],
+    "sourceProjects": [
+      "AIMortgageUnderwritingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIMortgageUnderwritingAssistant",
@@ -4669,7 +4652,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:81",
+        "path": "server/routes/ai.js:83",
         "route": "/income-verification",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -4695,8 +4678,34 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:636",
+        "path": "server/routes/ai.js:638",
         "route": "/insurance-requirements",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
+    "name": "Intake",
+    "canonicalKey": "intake",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/intake"
+    ],
+    "sourceProjects": [
+      "AIMortgageUnderwritingAssistant"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMortgageUnderwritingAssistant",
+        "path": "server/routes/mortgageWorkflow.js:2",
+        "route": "/intake",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
@@ -4755,7 +4764,7 @@
   },
   {
     "name": "Limited Third Party Integrations No Salesforce Servicenow Co",
-    "canonicalKey": "co integrations limited no party salesforce servicenow third",
+    "canonicalKey": "co integration limited no party salesforce servicenow third",
     "aliases": [],
     "kinds": [
       "page"
@@ -4799,7 +4808,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:223",
+        "path": "server/routes/ai.js:225",
         "route": "/loan-eligibility",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -5010,202 +5019,6 @@
     ]
   },
   {
-    "name": "Me",
-    "canonicalKey": "me",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/me"
-    ],
-    "sourceProjects": [
-      "AIAMLTransactionMonitoring",
-      "AIAccessibilityAuditAgent",
-      "AIAntiFraud",
-      "AIAuditWorkpaperAutomation",
-      "AICarbonCreditMarketplaceVerifier",
-      "AIClimateFinanceCarbonRegistry",
-      "AIDAOGovernanceAssistant",
-      "AIDebtCollectionOptimizer",
-      "AIFamilyOfficeManager",
-      "AIForensicAccountingInvestigator",
-      "AIGroundedClaims",
-      "AIInsuranceUnderwritingAgent",
-      "AIMortgageUnderwritingAssistant",
-      "AIRevenueRecognitionEngine",
-      "AISOXAuditAutomation",
-      "AISmartContractAuditor",
-      "AIVCDealFlowCopilot",
-      "AiTaxPrep",
-      "aiFinancePlatform",
-      "claudeTrading",
-      "investment"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/aave-protocol-v2-merged",
-      "financial-services/aml-transaction-monitoring",
-      "financial-services/audit-workpaper-automation",
-      "financial-services/carbon-credit-marketplace-verifier",
-      "financial-services/freqtrade-merged",
-      "financial-services/grounded-claims",
-      "financial-services/insurance-claims-adjuster",
-      "financial-services/invoice-processing",
-      "financial-services/revenue-recognition-engine",
-      "financial-services/smart-contract-auditor",
-      "financial-services/trading-merged"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDAOGovernanceAssistant",
-        "path": "backend/routes/auth.js:29",
-        "route": "/me",
-        "originApp": "financial-services/aave-protocol-v2-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "backend/routes/auth.js:55",
-        "route": "/me",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISmartContractAuditor",
-        "path": "backend/src/routes/auth.ts:65",
-        "route": "/me",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAccessibilityAuditAgent",
-        "path": "backend/routes/auth.js:112",
-        "route": "/me",
-        "originApp": "financial-services/audit-workpaper-automation"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAuditWorkpaperAutomation",
-        "path": "server/routes/auth.js:41",
-        "route": "/me",
-        "originApp": "financial-services/audit-workpaper-automation"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISOXAuditAutomation",
-        "path": "server/routes/auth.js:24",
-        "route": "/me",
-        "originApp": "financial-services/audit-workpaper-automation"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIForensicAccountingInvestigator",
-        "path": "backend/src/routes/auth.js:68",
-        "route": "/me",
-        "originApp": "financial-services/invoice-processing"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiTaxPrep",
-        "path": "server/routes/auth.js:199",
-        "route": "/me",
-        "originApp": "financial-services/invoice-processing"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRevenueRecognitionEngine",
-        "path": "backend/routes/auth.js:88",
-        "route": "/me",
-        "originApp": "financial-services/revenue-recognition-engine"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIVCDealFlowCopilot",
-        "path": "backend/routes/auth.js:67",
-        "route": "/me",
-        "originApp": "financial-services/freqtrade-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "investment",
-        "path": "backend/auth.py:215",
-        "route": "/me",
-        "originApp": "financial-services/freqtrade-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFamilyOfficeManager",
-        "path": "backend/routes/auth.js:62",
-        "route": "/me",
-        "originApp": "financial-services/trading-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "claudeTrading",
-        "path": "server/routes/auth.js:504",
-        "route": "/me",
-        "originApp": "financial-services/trading-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGroundedClaims",
-        "path": "backend/routes/auth.js:33",
-        "route": "/me",
-        "originApp": "financial-services/grounded-claims"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIInsuranceUnderwritingAgent",
-        "path": "backend/routes/auth.js:29",
-        "route": "/me",
-        "originApp": "financial-services/insurance-claims-adjuster"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAMLTransactionMonitoring",
-        "path": "backend/routes/auth.js:67",
-        "route": "/me",
-        "originApp": "financial-services/aml-transaction-monitoring"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAntiFraud",
-        "path": "server/routes/auth.js:167",
-        "route": "/me",
-        "originApp": "financial-services/aml-transaction-monitoring"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aiFinancePlatform",
-        "path": "backend/src/routes/auth.js:378",
-        "route": "/me",
-        "originApp": "financial-services/aml-transaction-monitoring"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarbonCreditMarketplaceVerifier",
-        "path": "server/routes/auth.js:42",
-        "route": "/me",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDebtCollectionOptimizer",
-        "path": "server/routes/auth.js:42",
-        "route": "/me",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/auth.js:26",
-        "route": "/me",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
     "name": "Model Monitoring",
     "canonicalKey": "model monitoring",
     "aliases": [],
@@ -5371,7 +5184,7 @@
   },
   {
     "name": "No AI Price Prediction For Credit Classes Page",
-    "canonicalKey": "ai classes credit for no prediction price",
+    "canonicalKey": "ai classe credit for no prediction price",
     "aliases": [],
     "kinds": [
       "page"
@@ -5449,7 +5262,7 @@
   },
   {
     "name": "No Credit Bureau Integrations Equifax Experian Transunion",
-    "canonicalKey": "bureau credit equifax experian integrations no transunion",
+    "canonicalKey": "bureau credit equifax experian integration no transunion",
     "aliases": [],
     "kinds": [
       "page"
@@ -5475,7 +5288,7 @@
   },
   {
     "name": "No Direct Verra Gold Standard Acr API Clients Only Page",
-    "canonicalKey": "acr api clients direct gold no only standard verra",
+    "canonicalKey": "acr api client direct gold no only standard verra",
     "aliases": [],
     "kinds": [
       "page"
@@ -5777,7 +5590,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:586",
+        "path": "server/routes/ai.js:588",
         "route": "/notification-intelligence",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -5785,7 +5598,7 @@
   },
   {
     "name": "Notifications Webhooks",
-    "canonicalKey": "notifications webhook",
+    "canonicalKey": "notification webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -5863,7 +5676,7 @@
   },
   {
     "name": "Only6 Frontend Pages Vs18 Backend Routes Ui Gap Page",
-    "canonicalKey": "backend frontend gap only6 pages routes ui vs18",
+    "canonicalKey": "backend frontend gap only6 page route ui vs18",
     "aliases": [],
     "kinds": [
       "page"
@@ -5965,7 +5778,7 @@
       {
         "kind": "page",
         "sourceProject": "multiverseinvestment",
-        "path": "frontend/src/App.jsx:113",
+        "path": "frontend/src/App.jsx:136",
         "route": "/pipeline",
         "originApp": "financial-services/freqtrade-merged"
       },
@@ -6040,7 +5853,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:506",
+        "path": "server/routes/ai.js:508",
         "route": "/pipeline-optimizer",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -6364,21 +6177,21 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:28",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:31",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:53",
+        "path": "trading-platform/src/App.jsx:57",
         "route": "/pricing",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:28",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:31",
         "route": "/pricing",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -6392,7 +6205,7 @@
       {
         "kind": "page",
         "sourceProject": "cash_flow",
-        "path": "src/router/AppRouter.tsx:123",
+        "path": "src/router/AppRouter.tsx:90",
         "route": "/pricing",
         "originApp": "financial-services/revenue-recognition-engine"
       },
@@ -6493,7 +6306,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:561",
+        "path": "server/routes/ai.js:563",
         "route": "/product-advisor",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -6577,7 +6390,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:106",
+        "path": "server/routes/ai.js:108",
         "route": "/property-valuation",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -6655,7 +6468,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:685",
+        "path": "server/routes/ai.js:687",
         "route": "/rate-lock-advisory",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -6663,7 +6476,7 @@
   },
   {
     "name": "Rate Sheets Eligibility",
-    "canonicalKey": "eligibility rate sheets",
+    "canonicalKey": "eligibility rate sheet",
     "aliases": [],
     "kinds": [
       "page"
@@ -6689,7 +6502,7 @@
   },
   {
     "name": "Real Time Market Anomaly Detection On Listings And Page",
-    "canonicalKey": "and anomaly detection listings market on real time",
+    "canonicalKey": "and anomaly detection listing market on real time",
     "aliases": [],
     "kinds": [
       "page"
@@ -6835,7 +6648,7 @@
   },
   {
     "name": "Retirements Format Json Csv",
-    "canonicalKey": "csv format json retirements",
+    "canonicalKey": "csv format json retirement",
     "aliases": [],
     "kinds": [
       "api"
@@ -6945,7 +6758,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:330",
+        "path": "server/routes/ai.js:332",
         "route": "/risk-score",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -6997,7 +6810,7 @@
       {
         "kind": "api",
         "sourceProject": "AICreditRiskAssessmentAgent",
-        "path": "backend/src/routes/scenarioModeling.js:58",
+        "path": "backend/src/routes/scenarioModeling.js:59",
         "route": "/scenario-modeling",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -7377,7 +7190,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:753",
+        "path": "server/routes/ai.js:755",
         "route": "/title-risk-assessment",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       },
@@ -7443,7 +7256,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:281",
+        "path": "server/routes/ai.js:283",
         "route": "/underwriting-decision",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -7451,7 +7264,7 @@
   },
   {
     "name": "Underwriting Rules Engine",
-    "canonicalKey": "engine rules underwriting",
+    "canonicalKey": "engine rule underwriting",
     "aliases": [],
     "kinds": [
       "page"
@@ -7606,7 +7419,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:612",
+        "path": "server/routes/ai.js:614",
         "route": "/workload-analysis",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
