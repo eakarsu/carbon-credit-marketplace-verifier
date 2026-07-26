@@ -3,7 +3,7 @@
 Industry: **Financial Services**  
 Specialization: **Carbon Credit Marketplace Verifier**
 
-This standalone application consolidates source-backed capabilities into 249 optimized features, including 52 visible data-backed or AI-enabled views. Its public demo SQLite database contains 524 sanitized source rows across 32 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 249 optimized features, including all 249 source-backed feature views. Its public demo SQLite database contains 524 sanitized source rows across 32 imported tables and 120 operational workflow records.
 
 ## Run locally
 
